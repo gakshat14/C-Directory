@@ -32,11 +32,9 @@ namespace nikiDirectory
                     //opening file to read them
                     using (var fileStream = new FileStream(f,FileMode.Open))
                     {
-                        
                         //Reading file
                         using (var myReader = new StreamReader(fileStream))
                         {
-                            
                             while (line != null) {
                                 //storing read line in "line"
                                 line = myReader.ReadLine();
