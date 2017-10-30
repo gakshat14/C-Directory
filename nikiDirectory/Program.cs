@@ -66,7 +66,7 @@ namespace nikiDirectory
             catch (Exception e)
             {
 
-                Console.WriteLine("Oops! Your file wasn't found {0}", e.Message);
+                Console.WriteLine("Oops! Your file wasn't found. Try making a folder and put some .txt file {0}", e.Message);
                 throw;
 
             }
